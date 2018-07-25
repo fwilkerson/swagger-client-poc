@@ -1,0 +1,21 @@
+{
+  "name": "swagger-client-petstore",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node --inspect -r esm src/index.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@polka/send-type": "^0.4.0",
+    "body-parser": "^1.18.3",
+    "cors": "^2.8.4",
+    "esm": "^3.0.72",
+    "helmet": "^3.13.0",
+    "polka": "^0.4.0",
+    "swagger-client": "^3.8.10"
+  }
+}
